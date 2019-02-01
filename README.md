@@ -11,5 +11,5 @@ In this project we need to build a simple image carousel.
 4. When you click "next slide" on a last one one you should see the first image.
 5. It should dinamicaly generate slides for each image.
 
-### Check Gitter channel to get help. 😉[![Join the chat at https://gitter.im/CodersInHood/02_simple_carousel](https://badges.gitter.im/CodersInHood/01_landing_page.svg)](https://gitter.im/CodersInHood/https://gitter.im/CodersInHood/02_simple_carousel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+### Check Gitter channel to get help. 😉 [![Join the chat at https://gitter.im/CodersInHood/02_simple_carousel](https://badges.gitter.im/CodersInHood/01_landing_page.svg)](https://gitter.im/CodersInHood/https://gitter.im/CodersInHood/02_simple_carousel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 

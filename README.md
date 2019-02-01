@@ -1,5 +1,7 @@
 # Simple carousel
 
+[![Join the chat at https://gitter.im/CodersInHood/02_simple_carousel](https://badges.gitter.im/CodersInHood/02_simple_carousel.svg)](https://gitter.im/CodersInHood/02_simple_carousel?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 In this project we need to build a simple image carousel.
 
 ##### Requirements:

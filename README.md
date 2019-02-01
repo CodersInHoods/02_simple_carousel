@@ -15,3 +15,8 @@ In this project we need to build a simple image carousel.
 
 ### Check Gitter channel to get help. 😉
 
+## Community solutions:
+
+| # | User id | Contributor repo | Live|
+|---|---|---|---|
+| 1 |  |||

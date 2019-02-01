@@ -1,8 +1,8 @@
-#Simple carousel
+# Simple carousel
 
 In this project we need to build a simple image carousel.
 
-#####Requirements:
+##### Requirements:
 
 1. We need to fetch images from any API.
     - you can use [Unsplash](https://unsplash.com/developers)
@@ -11,5 +11,5 @@ In this project we need to build a simple image carousel.
 4. When you click "next slide" on a last one one you should see the first image.
 5. It should dinamicaly generate slides for each image.
 
-###Check Gitter channel to get help. 
+### Check Gitter channel to get help. 😉
 

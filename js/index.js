@@ -1,3 +1,4 @@
+const URL = `https://api.unsplash.com/photos/?client_id=${API_KEY}`;
 let images = [];
 let counter = 0;
 const carouselEl = document.querySelector('.carousel');
@@ -10,7 +11,6 @@ const getImages = (url) => {
             images = [...imgs];
 
             createImageEl(images[counter]);
-            console.log(images)
         })
 };
 

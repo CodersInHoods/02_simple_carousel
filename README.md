@@ -4,14 +4,19 @@
 
 In this project we need to build a simple image carousel.
 
+
+
+![Carousel](https://github.com/CodersInHood/02_simple_carousel/blob/master/images/carousel.gif)
+
 ##### Requirements:
 
 1. We need to fetch images from any API.
     - you can use [Unsplash](https://unsplash.com/developers)
 2. Build a simple carousel left/right navigation
-3. When you click "previous slide" on a first one you should see the last image.
-4. When you click "next slide" on a last one one you should see the first image.
-5. It should dinamicaly generate slides for each image.
+3. Limit your images to 5 items.
+4. When you click "previous slide" on a first one you should see the last image.
+5. When you click "next slide" on a last one one you should see the first image.
+6. It should dinamicaly generate slides for each image.
 
 ### Check Gitter channel to get help. 😉
 
@@ -19,4 +24,4 @@ In this project we need to build a simple image carousel.
 
 | # | User id | Contributor repo | Live|
 |---|---|---|---|
-| 1 |  |||
+| 1 |[andrapetronela](https://github.com/andrapetronela)|[Github Repo](https://github.com/andrapetronela/slideshow)| [Live](https://andrapetronela.github.io/slideshow)|

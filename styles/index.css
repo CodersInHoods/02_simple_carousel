@@ -7,67 +7,66 @@ body {
 }
 
 /* Custom styles */
-@keyframes back_glow_pink {
-    0% { transform: translate(10%, 10%) scale(0.8); }
-    50% { transform: translate(-15%, -15%) scale(1.2); }
-    100% { transform: translate(10%, 10%) scale(0.8); }
-}
-
-@keyframes back_glow_blue {
-    0% { transform: translate(-10%, -10%) scale(0.8); }
-    50% { transform: translate(15%, 15%) scale(1.2); }
-    100% { transform: translate(-10%, -10%) scale(0.8); }
-}
-
-.content_area {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #000;
-}
-
-.content_area__logo {
+.carousel {
+    width: 600px;
+    height: 400px;
+    margin: 200px auto;
+    background-color: aliceblue;
     position: relative;
-    width: 150px;
-    height: 150px;
+    overflow: hidden;
 }
 
-.content_area__logo img {
-    border-radius: 15px;
-    display: block;
-    left: 0;
-    margin: 0 auto;
+.nav_btn {
     position: absolute;
     top: 0;
-    width: 150px;
-    z-index: 3;
+    height: 100%;
+    width: 40px;
+    background-color: antiquewhite;
+    color: #000;
+    margin: 0;
+    text-align: center;
+    line-height: 400px;
+    z-index: 10;
+    cursor: pointer;
 }
 
+.nav_btn.btn_left {
+    left: 0;
+}
 
-.content_area__logo:before,
-.content_area__logo:after {
-    border-radius: 15px;
-    content: "";
-    filter: blur(40px);
-    height: 100%;
-    opacity: 0.5;
+.nav_btn.btn_right {
+    right: 0;
+}
+
+.img_wrapper {
     position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.img_wrapper img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: 100%;
 }
 
-.content_area__logo::after {
-    animation: back_glow_blue 3s ease infinite;
-    background-color: #0ff;
-    z-index: 1;
+.img_wrapper.image_left {
+    transform: translate(-100%, 0);
 }
 
-.content_area__logo::before {
-    animation: back_glow_pink 3s ease infinite;
-    background-color: #a622ff;
-    z-index: 2;
+.img_wrapper.image_right {
+    transform: translate(100%, 0);
+}
+
+.img_wrapper.image_left.image_active,
+.img_wrapper.image_right.image_active{
+    transform: translate(0, 0);
 }
 
 /* ======================== */
